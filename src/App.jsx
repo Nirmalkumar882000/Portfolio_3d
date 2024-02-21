@@ -16,11 +16,10 @@ const App = () => {
 
 
 
-
   return (
     <>
     <Background/>
-    <div  className='flex justify-center w-full h-full mt-28 '>
+    <div  className='flex justify-center w-full h-full mt-28 sm:mt-10 md:mt-10 lg:mt-10 '>
    <MyBook/>
     </div>
     </>
@@ -30,13 +29,5 @@ const App = () => {
 export default App
 
 
-
-
-
-
-
- 
-
-  
 
 

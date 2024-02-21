@@ -20,7 +20,7 @@ const Background = () => {
     options={{
         background: {
             color: {
-                value: "#C4A484",
+                value: "#623709",
             },
         },
         fpsLimit: 120,

@@ -1,7 +1,11 @@
 import React from 'react'
+import Tilt from 'react-parallax-tilt';
 
 const ProjectBox = ({ProjectData}) => {
   return (
+    <Tilt>
+
+    
     <div>
     <div className="grid grid-cols-2 gap-4 mt-10">
       {ProjectData.map((project, index) => {
@@ -31,6 +35,7 @@ const ProjectBox = ({ProjectData}) => {
       })}
     </div>
   </div>
+  </Tilt>
   )
 }
 
