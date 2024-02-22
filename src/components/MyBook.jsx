@@ -2,8 +2,8 @@ import React from "react";
 import HTMLFlipBook from "react-pageflip";
 import Page from "./Page";
 import Cover from "./Pages/Cover/Cover";
-import coverImg from "../assets/cover.jpg";
-import EndImg from "../assets/last-page.jpg";
+import coverImg from "../assets/cover.webp";
+import EndImg from "../assets/last-page.webp";
 import FirstPage from "./Pages/FirstPage/FirstPage";
 import Skills from "./Pages/Skills/Skills"
 import Services from "./Pages/services/Services";
@@ -11,15 +11,15 @@ import About from "./Pages/About/About";
 import Project from "./Pages/Projects/Project";
 
 
-import ProjectImg1 from "../assets/projects/Car_Rental.png";
-import ProjectImg2 from "../assets/projects/Dream_Travel.png";
-import ProjectImg3 from "../assets/projects/Ecommerce.png";
-import ProjectImg4 from "../assets/projects/r3f_monster_world.png";
+import ProjectImg1 from "../assets/projects/Car_Rental.webp";
+import ProjectImg2 from "../assets/projects/Dream_Travel.webp";
+import ProjectImg3 from "../assets/projects/Ecommerce.webp";
+import ProjectImg4 from "../assets/projects/r3f_monster_world.webp";
 
-import ProjectImg5 from "../assets/projects/FruitWheel.jpg";
-import ProjectImg6 from "../assets/projects/CandyWheel.jpg";
-import ProjectImg7 from "../assets/projects/carwheel.jpg";
-import ProjectImg8 from "../assets/projects/Text-Effect_3d.png";
+import ProjectImg5 from "../assets/projects/FruitWheel.webp";
+import ProjectImg6 from "../assets/projects/CandyWheel.webp";
+import ProjectImg7 from "../assets/projects/carwheel.webp";
+import ProjectImg8 from "../assets/projects/Text-Effect_3d.webp";
 
 
 
@@ -88,7 +88,7 @@ const ProjectData4 = [
 
 const MyBook = () => {
   return (
-    <HTMLFlipBook width={600} height={700} className="" showCover="true">
+    <HTMLFlipBook width={500} height={600} className="" showCover="true">
       <Page number={1}>
         <Cover coverImg={coverImg} title="Portfolio"/>
       </Page>
